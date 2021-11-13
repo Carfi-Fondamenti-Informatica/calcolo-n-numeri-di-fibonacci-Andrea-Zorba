@@ -2,20 +2,20 @@
 using namespace std;
 
 int main() {
-    int n=0, a=1, b=1, c=0;
+    int n=0, a=1, b=1, c;
     cin>>n;
     if(n>=2){
         cout<<"1"<<endl;
         for (int i=1; i<n; i++)
         {
-         c=a+b;
-         cout<<c<<endl;
-         a=b;
-         b=c;
-         }
-    } else{
-         cout<<"errore"<<endl;
-        
+            c=a+b;
+            cout<<c<<endl;
+            a=b;
+            b=c;
         }
-        return 0;
+    } else{
+        cout<<"errore"<<endl;
+
+    }
+    return 0;
 }
